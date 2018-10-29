@@ -1,0 +1,18 @@
+﻿body {
+  margin:0px;
+  background-image:url('../../images/___data_editor__/bg.png');
+  background-position:left top;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:2230px 1212px;
+  position:static;
+  left:auto;
+  width:10px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
