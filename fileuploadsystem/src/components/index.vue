@@ -1,13 +1,24 @@
 <template>
-  <div>
-      <h2 class="red"></h2>
-      <h2></h2>
-      <table></table>
-  </div>
+  <el-container>
+    <ckx-sidebar></ckx-sidebar>
+    <el-container class="main">
+      <el-header class="pr0 pl0">
+        <ckx-navbar></ckx-navbar>
+      </el-header>
+      <el-main class="content">
+        <el-row>
+          <el-col :span="23">
+            <router-view></router-view>
+          </el-col>
+        </el-row>
+      </el-main>
+    </el-container>
+  </el-container>
 </template>
 
 <script>
-
+import navbar from './common/navbar.vue'
+import sidebar from './common/sidebar.vue'
 export default {
   name: 'HelloWorld',
   data () {
@@ -15,32 +26,19 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
+  components: {
+    'ckx-navbar': navbar,
+    'ckx-sidebar': sidebar
+  },
   methods: {
-    runs: function(){
-      console.log(10);
-      console.log(10);
-    
-  
+    runs: function () {
+    }
+  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.red{
-  color: red;
-}
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+  .content{
+    background-color: #f8f8f8;
+  }
 </style>

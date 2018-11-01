@@ -1,0 +1,266 @@
+html,
+body,
+#app,
+#app>.el-container,
+.sidebar{
+  height: 100%;
+}
+body {
+  padding: 0px;
+  margin: 0px auto;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #55a8fd;
+}
+h2{
+  font-weight: normal;
+  font-size: 20px;
+}
+h1,h2,h3,h4,h5{
+  font-weight: normal;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
+}
+
+/* float */
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+/* clear both */
+.clearb:after {
+	content: " "; 
+	display: block; 
+	height:0; 
+	clear:both; 
+	visibility: hidden;
+	overflow: hidden;
+}
+.clearb { 
+	*zoom:1; 
+}
+
+/* text align */
+.text_center {
+  text-align: center;
+}
+.text_right {
+  text-align: right;
+}
+
+/* width */
+.wd60{
+  width: 60px;
+}
+.wd96{
+  width: 96px;
+}
+.wdb100{
+  width: 100%;
+}
+
+/* line height */
+.lh40{
+  line-height: 40px;
+}
+
+/* padding */
+.pt10{
+  padding-top: 10px;
+}
+.pt20{
+  padding-top: 20px;
+}
+.pb10{
+  padding-bottom: 10px;
+}
+.pb20{
+  padding-bottom: 20px;
+}
+.pl0{
+  padding-left: 0 !important;
+}
+.pr0{
+  padding-right: 0 !important;
+}
+.pr20{
+  padding-right: 20px;
+}
+
+/* margin */
+.mt5{
+  margin-top: 5px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt16{
+  margin-top: 16px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt24{
+  margin-top: 24px;
+}
+.mt40{
+  margin-top: 40px;
+}
+.mr5{
+  margin-right: 5px;
+}
+.ml5{
+  margin-left: 5px;
+}
+.ml10{
+  margin-left: 10px;
+}
+
+/* height */
+.ht20{
+  height: 20px;
+}
+
+/* color */
+.text_blue{
+  color: #55a8fd
+}
+.text_light_blue{
+  color: #60729b;
+}
+.text_primary{
+  color: #506fbc;
+}
+.text_danger{
+  color: red;
+}
+
+/* fontsize */
+.fz12{
+  font-size: 12px;
+}
+
+/* text ellipse */
+.text_ellipse{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* cursor */
+.cursor_p{
+  cursor: pointer;
+}
+
+/* background color */
+.bg_white{
+  background-color: #fff;
+}
+
+
+/* common */
+.common_pannel{
+  padding: 20px 16px;
+  background: #ffff;
+}
+.common_border{
+  border: 1px solid #ebeef5;
+}
+
+
+/* cover element ui */
+body .el-input__prefix{
+  left: 10px;
+}
+.sidebar,
+.sidebar .menu,
+.sidebar .el-menu{
+  background-color: #21376c;
+}
+.sidebar,
+.sidebar .menu,
+.sidebar .el-menu-item,
+.sidebar .el-menu-item i,
+.sidebar .el-submenu__title,
+.sidebar .el-submenu__title i{
+  color: #fff;
+}
+.sidebar .is-active,
+.sidebar .el-menu-item:focus,
+.sidebar .el-menu-item:hover,
+.sidebar .el-submenu__title:hover{
+  background-color: #192d5f;
+}
+.sidebar .el-menu-item.is-active,
+.sidebar .el-menu-item.is-active i,
+.sidebar .el-menu-item:hover,
+.sidebar .el-menu-item:hover i{
+  color: #50a0f3;
+}
+.sidebar .el-menu{
+  border-right: none;
+}
+.sidebar .el-menu .el-menu>li{
+  padding-left: 80px !important;
+}
+.navbar .el-menu.el-menu--horizontal{
+  border-bottom: none;
+}
+body .el-button--primary,
+body .el-pagination.is-background .el-pager li:not(.disabled).active,
+body .el-tabs__active-bar{
+  background-color: #506fbc;
+  border-color: #506fbc;
+}
+body .el-button--primary:focus,
+body .el-button--primary:hover{
+  background-color: #5e82dd;
+  border-color: #5e82dd;
+}
+body .el-button--primary:active{
+  background-color: #5576c8;
+  border-color: #5576c8;
+}
+body .el-checkbox__input.is-checked .el-checkbox__inner,
+body .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #506fbc;
+  border-color: #506fbc;
+}
+body .el-checkbox__input.is-focus .el-checkbox__inner,
+body .el-checkbox__inner:hover{
+  border-color: #506fbc;
+}
+body .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+  background-color: #506fbc;
+  border-color: #506fbc;
+  -webkit-box-shadow: -1px 0 0 0 #506fbc;
+  box-shadow: -1px 0 0 0 #506fbc;
+}
+body .el-radio-button__inner:hover,
+body .el-button--text,
+body .el-tabs__item.is-active,
+body .el-tabs__item:hover,
+body .el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #506fbc;
+}
+body .el-button--primary.is-plain {
+  color: #506fbc;
+  background: #d3def7;
+  border-color: #d3def7;
+}
+body .el-button--primary.is-plain:focus,
+body .el-button--primary.is-plain:hover{
+  background: #9baed8;
+  border-color: #9baed8;
+}

@@ -5,16 +5,18 @@
 </template>
 
 <script>
-    export default {
-        data () => ({
-
-        }),
-        components: {
-
-        }
+export default {
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+
+  }
+}
 </script>
 
 <style scoped>
-    
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    公共头部
+    用户
   </div>
 </template>
 

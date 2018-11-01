@@ -1,6 +1,6 @@
 <template>
   <div>
-    公共头部
+    <h1>文件缴存系统首页</h1>
   </div>
 </template>
 
